@@ -14,20 +14,20 @@ body {
 
 /* Custom Scroll Bar CSS */
 ::-webkit-scrollbar {
-    width: 10px;
-}
+    width: 5px;
+}/*
 ::-webkit-scrollbar-track {
     background: #f1f1f1;
-}
+}*/
 ::-webkit-scrollbar-thumb {
-    background: #6e93f7;
+    background: rgb(255, 0, 0);
     border-radius: 12px;
     transition: all 0.3s ease;
 }
-
+/*
 ::-webkit-scrollbar-thumb:hover {
     background: linear-gradient(to right, rgb(255, 0, 0),rgb(255, 162, 0));
-}
+}*/
 /* navbar styling */
 nav{
   position: fixed;
@@ -119,6 +119,7 @@ nav.sticky .menu-btn{
   background-attachment: fixed;
   font-family: 'Ubuntu', sans-serif;
 }
+
 .home .home-content{
   width: 90%;
   height: 100%;
