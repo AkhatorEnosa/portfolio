@@ -294,13 +294,18 @@ section .button a:hover{
 
 .skills-center .boxes {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   flex-wrap: wrap;
 }
 
 .skills-center .boxes img {
   width: 10vw;
+  transform: scale(0.5);
 }
+
+/* .boxes img {
+  transform: scale(0.5);
+} */
 
 /* My Services CSS */
 .services .boxes{
