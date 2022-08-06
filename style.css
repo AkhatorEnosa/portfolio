@@ -10,6 +10,7 @@
 
 body {
   background: #000;
+  font-family: 'Montserrat', sans-serif;
 }
 
 /* Custom Scroll Bar CSS */
@@ -35,7 +36,7 @@ nav{
   padding: 20px 0;
   z-index: 998;
   transition: all 0.3s ease;
-  font-family: 'Ubuntu', sans-serif;
+  /* font-family: 'Ubuntu', sans-serif; */
 }
 nav.sticky{
   background: linear-gradient(to right, rgb(255, 0, 0),rgb(255, 162, 0));
@@ -117,7 +118,7 @@ nav.sticky .menu-btn{
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  font-family: 'Ubuntu', sans-serif;
+  /* font-family: 'Ubuntu', sans-serif; */
 }
 
 .home .home-content{
@@ -181,7 +182,7 @@ section{
 section .content{
   width: 80%;
   margin: 40px auto;
-  font-family: 'Poppins', sans-serif;
+  /* font-family: 'Poppins', sans-serif; */
 }
 .about .about-details{
   display: flex;
@@ -239,16 +240,19 @@ section  .topic{
   color: #fff;
 }
 section .button{
-  margin: 16px 0;
+  margin: 30px 0;
+  float: right;
 }
 section .button a{
   padding: 8px 16px;
   border-radius: 5px;
-  font-size: 25px;
+  font-size: 15px;
   font-weight: 400;
   background: rgba(255, 162, 0, 1);
   color: #fff;
   border: 2px solid transparent;
+  text-align: 0px 0px 5px #000;
+  font-weight: bold;
   cursor: pointer;
   transition: all 0.4s ease;
 }
@@ -361,6 +365,54 @@ section .button a:hover{
   transition: all 0.4s ease;
   overflow: hidden;
 }
+.services .boxes .box4{
+  margin: 20px 0;
+  width: calc(100% / 3 - 20px);
+  text-align: center;
+  border-radius: 5px;
+  border: rgb(255, 162, 0);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.12);
+  cursor: default;
+  background: url("images/drib-1.webp");
+    background-size:     cover;
+    background-repeat:   no-repeat;
+    background-position: center center;              
+  color: #fff;
+  transition: all 0.4s ease;
+  overflow: hidden;
+}
+.services .boxes .box5{
+  margin: 20px 0;
+  width: calc(100% / 3 - 20px);
+  text-align: center;
+  border-radius: 5px;
+  border: rgb(255, 162, 0);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.12);
+  cursor: default;
+  background: url("images/drib-2.webp");
+    background-size:     cover;
+    background-repeat:   no-repeat;
+    background-position: center center;              
+  color: #fff;
+  transition: all 0.4s ease;
+  overflow: hidden;
+}
+.services .boxes .box6{
+  margin: 20px 0;
+  width: calc(100% / 3 - 20px);
+  text-align: center;
+  border-radius: 5px;
+  border: rgb(255, 162, 0);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.12);
+  cursor: default;
+  background: url("images/drib-3.webp");
+    background-size:     cover;
+    background-repeat:   no-repeat;
+    background-position: center center;              
+  color: #fff;
+  transition: all 0.4s ease;
+  overflow: hidden;
+}
 
 .box-content {
   background: rgba(0, 0, 0, 0.6);
@@ -404,7 +456,7 @@ footer{
   background: linear-gradient(to right, rgb(255, 0, 0),rgb(255, 162, 0));
   padding: 15px 0;
   text-align: center;
-  font-family: 'Poppins', sans-serif;
+  /* font-family: 'Poppins', sans-serif; */
 }
 footer .text span{
   font-size: 17px;
